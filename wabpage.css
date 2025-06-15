@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('su.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navebar{
+  
+    width: 1500px;
+    height: 70px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: orange;
+    padding: 20px 10px 10px 10px;
+    font-family: Arial ;
+    float: left;
+
+}
+.menu{
+    height: 400px;
+    width: 70px;
+    float: left;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content:center ;
+  align-items: center;  
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27PX ;
+    font-size: 25px;        
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;  
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.05s ease-in-out;
+}
+ul li a:hover{
+    color: #e01717;
+    
+}
+
+
+.search {
+    display: flex;
+    align-items: center;    
+    margin-top: 15px;
+}
+
+.search-box {
+    font-family: 'Times New Roman', serif;
+    background: transparent;
+    height: 40px;
+    width: 350px;
+    border: 1px solid orange;
+    border-right: none; 
+    color: white;
+    padding: 0 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-box::placeholder {
+    color: #ccc; 
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.btn {
+    height: 42px; 
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background: #e01717;
+    border-color: #e01717;
+}
+.search{
+    padding:20px 00px 00px 70px;
+    
+}
+.content{
+    color: white;
+    height: auto;
+    width: 1200px;
+    position: relative;
+}
+.content .su{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+.content h1{
+    font-family:  'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .ba{
+    width: 260px;
+    height: 40px;
+    text-decoration: none;
+    background-color: orange;
+    border: 1px solid orange ;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition:  .4S ease;
+}
+.content .ba{
+    
+    color: #96dce9;
+    transition: .3S ease;
+}
+.ba:hover{
+    background-color:white;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.from{
+    width: 350px;
+    height: 480px;
+    background:linear-gradient( to top ,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 1000px; 
+    border-radius: 10px;
+    padding-top: 25px;
+
+}
+.from h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8PX;
+    margin-left: 68px;
+
+}
+.from input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+border-bottom: 1px solid orange;
+border-top:none ;
+border-right:none ;
+border-left:none ;
+color: white;
+font-size: 15px;
+letter-spacing: 1px;
+margin-top: 30px;
+font-family: sans-serif;
+margin-left: 50px;
+}
+
+
+.from input:focus{
+    outline: none;
+}
+
+
+::placeholder  {
+    color: white;
+    font-family: Arial;
+
+
+}
+.ba{
+    width: 440px;
+    height: 40px;
+    background: orange;
+    border: none;
+     font-size: 15px;
+     margin-top: 30px;
+     border-radius: 10px;
+     cursor: pointer;
+     color: white;
+     
+
+}
+.from .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.from .link a {
+text-decoration: none;
+color: orange;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.icon{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    color: white;
+    font-size: 22px;
+    padding-left: 14px;
+    padding-top: 5px;
+    
+    
+}
+.icon  ion-icon:hover{
+    color: orange;
+   
+}   
+      
+
+
+   
